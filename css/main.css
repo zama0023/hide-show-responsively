@@ -12,7 +12,7 @@ html {
   box-sizing: border-box;
 }
 
-  *, *::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -25,11 +25,12 @@ img {
   width: 100%;
 }
 
-img:nth-child(2), img:nth-child(4)  {
+img:nth-child(2), img:nth-child(4) {
   display: none;
-  }
+}
 
 @media only screen and (min-width: 25em) {
+
   img {
     width: 49%;
   }
@@ -40,6 +41,7 @@ img:nth-child(2), img:nth-child(4)  {
 }
 
 @media only screen and (min-width: 38em) {
+
   img {
     width: 32%;
   }
@@ -51,10 +53,11 @@ img:nth-child(2), img:nth-child(4)  {
 }
 
 @media only screen and (min-width: 60em) {
+
   img {
     width: 24%;
   }
-  img:nth-child(1){
+  img:nth-child(1) {
     display: inline-block;
   }
 }
